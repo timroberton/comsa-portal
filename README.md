@@ -5,10 +5,9 @@ Welcome to the COMSA Data Portal repo
 
 ## INSTALLATION
 
-
 #### Install Docker
 
-Install docker...
+In order to run the portal, you need to install Docker.
 
 [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)
 
