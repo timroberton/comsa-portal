@@ -11,7 +11,13 @@ In order to run the portal, you need to install Docker.
 
 [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)
 
-#### Pull necessary Docker containers
+Check that Docker is installed
+
+```
+docker --version
+```
+
+#### Pull the necessary Docker containers that are used by the portal
 
 ```
 docker pull timroberton/comsa:timr
