@@ -1,9 +1,9 @@
-# COMSA Data Portal
+# COMSA Portal
 
-Welcome to the COMSA Data Portal repo
+This is the repository for the COMSA Portal
 
 
-## INSTALLATION
+## SETUP
 
 #### Install Docker
 
@@ -21,13 +21,13 @@ docker pull timroberton/comsa:odk
 #### Copy git repo
 
 ```
-git clone https://github.com/timroberton/comsa-portal.git comsa-data-portal
+git clone https://github.com/timroberton/comsa-portal.git comsa-portal
 ```
 
 #### Run executable (binary)
 
 ```
-cd comsa-data-portal
+cd comsa-portal
 serve-win.exe
 ```
 
