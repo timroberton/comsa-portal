@@ -27,13 +27,13 @@ docker pull timroberton/comsa:odk
 #### Copy git repo
 
 ```
-git clone https://github.com/timroberton/comsa-portal.git comsa-portal
+git clone https://github.com/timroberton/comsa-portal.git <path/to/your/prefered/folder>
 ```
 
 #### Run executable (binary)
 
 ```
-cd comsa-portal
+cd <path/to/your/prefered/folder>
 serve-win.exe
 ```
 
