@@ -1,0 +1,6 @@
+{
+  "name": "Another complicated analysis",
+  "docker": "timroberton/comsa:timr",
+  "inputs": [],
+  "outputs": []
+}

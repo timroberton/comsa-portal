@@ -1,0 +1,6 @@
+{
+  "name": "Analyzing VASA data for public website",
+  "docker": "timroberton/comsa:timr",
+  "inputs": [],
+  "outputs": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Clean tables for further analysis",
+  "docker": "timroberton/comsa:timr",
+  "inputs": [],
+  "outputs": []
+}

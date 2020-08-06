@@ -1,0 +1,17 @@
+{
+  "name": "Simple analysis",
+  "docker": "timr",
+  "inputs": [
+    {
+      "type": "analysis",
+      "folder": "917404da-c8dc-44e0-a498-5cefd5ff19d9",
+      "file": "res_a.txt"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "tim.csv",
+      "exported": false
+    }
+  ]
+}
