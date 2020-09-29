@@ -69,12 +69,18 @@ The portal should now be accessible at `http://localhost:9000`
         /<analysis_output_file>
 /data
     /odk
-        /<data_file>
-        /<data_file>
-        /<data_file>
-        /<data_file>
-        /<data_file>
-        /<data_file>
+        /<form_id>
+            /_odkstorage
+            /<data_file>
+            /<data_file>
+        /<form_id>
+            /_odkstorage
+            /<data_file>
+            /<data_file>
+        /<form_id>
+            /_odkstorage
+            /<data_file>
+            /<data_file>
     /uploaded
         /<data_file>
         /<data_file>
@@ -89,7 +95,6 @@ The portal should now be accessible at `http://localhost:9000`
         /css
         /js
     /index.html
-/odkstorage
 /temp
 /serve-win.exe
 ```
