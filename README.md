@@ -20,14 +20,14 @@ docker --version
 #### Pull the necessary Docker containers that are used by the portal
 
 ```
-docker pull timroberton/comsa:timr
 docker pull timroberton/comsa:odk
+docker pull timroberton/comsa:timr
 ```
 
 #### Copy git repo
 
 ```
-git clone https://github.com/timroberton/comsa-portal.git <path/to/your/prefered/folder>
+git clone https://github.com/timroberton/comsa-portal.git <path/to/your/preferred/folder>
 ```
 
 #### Run executable (binary)

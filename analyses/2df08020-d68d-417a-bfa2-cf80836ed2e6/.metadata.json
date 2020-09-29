@@ -1,6 +1,6 @@
 {
   "name": "Simple analysis",
-  "docker": "timr",
+  "docker": "timroberton/comsa:timr",
   "inputs": [
     {
       "type": "analysis",

@@ -1,13 +1,7 @@
 {
   "name": "Analysis about X",
   "docker": "timroberton/comsa:timr",
-  "inputs": [
-    {
-      "type": "data",
-      "folder": "odk",
-      "file": "tim.txt"
-    }
-  ],
+  "inputs": [],
   "outputs": [
     {
       "file": "res_a.txt",
