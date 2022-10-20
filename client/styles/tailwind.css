@@ -1,0 +1,150 @@
+@tailwind base;
+
+/* purgecss start ignore */
+html,
+body,
+#root,
+#__next {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  overflow-y: hidden;
+  overflow-x: auto;
+  min-width: 1080px;
+  @apply font-sans text-base text-gray-800 font-book;
+}
+
+.ace_gutter-layer {
+  @apply bg-gray-200;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-functional-scrollbar::-webkit-scrollbar {
+  /* display: none; */
+  opacity: 0;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-functional-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  scrollbar-color: #fff;
+}
+
+.uppy-DragDrop-container {
+  @apply rounded-none border-gray-300 font-sans text-sm !important;
+}
+/* purgecss end ignore */
+
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .ui-link {
+    @apply text-blue-500 cursor-pointer hover:underline;
+  }
+  .ui-link-gray {
+    @apply text-gray-400 cursor-pointer hover:underline;
+  }
+  .ui-form-subheader {
+    @apply mb-1 text-sm text-gray-400;
+  }
+  .ui-pad {
+    @apply px-3 py-3;
+  }
+  .ui-button-fontweight {
+    @apply font-book;
+  }
+  .ui-form-rounded {
+    @apply rounded-none;
+  }
+  .ui-form-rounded-smallbutton {
+    @apply rounded-none;
+  }
+  .ui-margin-left {
+    @apply ml-2;
+  }
+  .ui-margin-right {
+    @apply mr-2;
+  }
+  .ui-margin-top {
+    @apply mt-2;
+  }
+  .ui-margin-bottom {
+    @apply mb-2;
+  }
+}
+
+@layer components {
+  .ui-btn-small {
+    @apply inline-flex items-center align-bottom my-0 px-2.5 py-1.5 border border-transparent text-xs ui-button-fontweight ui-form-rounded-smallbutton focus:outline-none;
+  }
+  .ui-btn-medium {
+    @apply inline-flex items-center px-4 py-2 my-0 text-sm align-bottom border border-transparent ui-button-fontweight ui-form-rounded focus:outline-none;
+  }
+  .ui-btn-large {
+    @apply inline-flex items-center px-4 py-2 my-0 text-base align-bottom border border-transparent ui-button-fontweight ui-form-rounded focus:outline-none;
+  }
+
+  .ui-btn-blue {
+    @apply text-white bg-blue-600 cursor-pointer hover:bg-blue-700;
+  }
+  .ui-btn-orange {
+    @apply text-white bg-orange-600 cursor-pointer hover:bg-orange-700;
+  }
+  .ui-btn-green {
+    @apply text-white bg-green-600 cursor-pointer hover:bg-green-700;
+  }
+  .ui-btn-red {
+    @apply text-white bg-red-600 cursor-pointer hover:bg-red-700;
+  }
+  .ui-btn-gray {
+    @apply text-white bg-gray-600 cursor-pointer hover:bg-gray-700;
+  }
+  .ui-btn-lightgray {
+    @apply text-gray-600 bg-gray-200 cursor-pointer hover:bg-gray-300;
+  }
+  .ui-btn-purple {
+    @apply text-white bg-purple-600 cursor-pointer hover:bg-purple-700;
+  }
+
+  .ui-iconbtn-small {
+    @apply inline-flex align-bottom my-0 px-1.5 py-1.5 border border-transparent ui-form-rounded-smallbutton focus:outline-none;
+  }
+  .ui-iconbtn-medium {
+    @apply inline-flex px-2 py-2 my-0 align-bottom border border-transparent ui-form-rounded focus:outline-none;
+  }
+  .ui-iconbtn-large {
+    @apply inline-flex px-2 py-2 my-0 align-bottom border border-transparent ui-form-rounded focus:outline-none;
+  }
+
+  .ui-checkbox-label {
+    @apply block py-2 ml-3 text-sm text-black border border-transparent cursor-pointer select-none font-book;
+  }
+  .ui-checkbox-icon {
+    @apply w-5 h-5 text-blue-500 border-gray-300 cursor-pointer ui-form-rounded focus:outline-none;
+  }
+  .ui-radio-icon {
+    @apply w-5 h-5 text-blue-500 border-gray-300 cursor-pointer focus:outline-none;
+  }
+
+  .ui-select {
+    @apply inline-block w-full py-2 pl-3 pr-10 text-sm text-black bg-white border-gray-300 cursor-pointer font-book focus:outline-none focus:border-blue-500 ui-form-rounded;
+  }
+
+  .ui-select-purple {
+    @apply inline-block w-full py-2 pl-3 pr-10 text-sm text-black bg-white border-gray-300 cursor-pointer font-book focus:outline-none focus:border-purple-500 ui-form-rounded;
+  }
+
+  .ui-input {
+    @apply inline-block w-full text-sm text-black bg-white border-gray-300 font-book focus:outline-none focus:border-blue-500 focus:ring-blue-500 ui-form-rounded;
+  }
+
+  .ui-input-purple {
+    @apply inline-block w-full text-sm text-black bg-white border-gray-300 font-book focus:outline-none focus:border-purple-500 focus:ring-purple-500 ui-form-rounded;
+  }
+}

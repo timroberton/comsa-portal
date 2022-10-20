@@ -1,0 +1,19 @@
+[package]
+name = "comsa-portal-server"
+version = "0.1.0"
+authors = ["timroberton <timroberton@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "comsa-portal-server"
+path = "src/main.rs"
+
+[dependencies]
+rocket = { version = "0.5.0-rc.1", features = ["json", "secrets"] }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+uuid = { version = "0.8", features = ["serde", "v4"] }
+chrono = { version = "0.4", features = ["serde"] }
+linemux = "0.2"
+bcrypt = "0.8"
